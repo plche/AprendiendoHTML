@@ -1,72 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Hola mundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <h1>Título principal</h1>
-    <h2>Subtítulo</h2>
-    <h6>Subtítulo muy pequeño</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere ab accusantium dolor voluptate porro accusamus nisi voluptatum illum doloribus. Cupiditate aperiam, dolor fugit qui placeat illo deleniti mollitia blanditiis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus sed at, mollitia nesciunt eos a voluptates? Ad similique, quasi tempore, quibusdam odio facere debitis facilis esse dolore veritatis nam.</p>
-    <ol>
-        <li>Primero</li>
-        <li>Segundo</li>
-        <li>Tercero</li>
+    <nav>
+        <ul>
+            <li class="navegacion especial">
+                Home
+            </li>
+            <li class="navegacion">
+                About
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h1 id="principal" class="titulo">
+            Título principal
+        </h1>
+        <h2>
+            Subtítulo
+        </h2>
+        <h6>
+            Subtítulo muy pequeño
+        </h6>
+    </section>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere ab accusantium dolor voluptate porro accusamus nisi voluptatum illum doloribus. Cupiditate aperiam, dolor fugit qui placeat illo deleniti mollitia blanditiis.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus sed at, mollitia nesciunt eos a voluptates? Ad similique, quasi tempore, quibusdam odio facere debitis facilis esse dolore veritatis nam.
+    </p>
+    <ol class="numeros">
+        <li>
+            Primero
+        </li>
+        <li>
+            Segundo
+        </li>
+        <li>
+            Tercero
+        </li>
+        <div>
+            <ul>
+                <li>
+                    extra
+                </li>
+            </ul>
+        </div>
     </ol>
     <ul>
-        <li>Primero</li>
-        <li>Segundo</li>
-        <li>Tercero</li>
+        <li>
+            Primero
+        </li>
+        <li>
+            Segundo
+        </li>
+        <li>
+            Tercero
+        </li>
     </ul>
-    <form action="">
-        <div>
-            <label for="nombreUsuario">Nombre:</label>
-            <input type="text" name="nombreUsuario" id="nombreUsuario"/>
-        </div>
-        <div>
-            <label for="apellidoUsuario">Apellido:</label>
-            <input type="text" name="apellidoUsuario" id="apellidoUsuario"/>
-        </div>
-        <div>
-            <label for="passwordUsuario">Contraseña:</label>
-            <input type="password" name="passwordUsuario" id="passwordUsuario"/>
-        </div>
-        <div>
-            <label for="peliculaMatrix">Matrix:</label>
-            <input type="radio" name="peliculas" id="peliculaMatrix"/>
-            <label for="peliculaSpiderman">Spiderman</label>
-            <input type="radio" name="peliculas" id="peliculaSpiderman"/>
-            <label for="peliculaThor">Thor</label>
-            <input type="radio" name="peliculas" id="peliculaThor"/>
-        </div>
-        <div>
-            <label for="tomate">Tomate:</label>
-            <input type="checkbox" name="verduras" id="tomate"/>
-            <label for="lechuga">Lechuga:</label>
-            <input type="checkbox" name="verduras" id="lechuga"/>
-            <label for="Ejote">Ejote:</label>
-            <input type="checkbox" name="verduras" id="ejote"/>
-
-        </div>
-        <div>
-            <label for="pais">País:</label>
-            <select name="pais" id="pais">
-                <option value="peru">Perú</option>
-                <option value="mexico">México</option>
-                <option value="ecuador">Ecuador</option>
-            </select>
-        </div>
-        <div>
-            <label for="comentario">Deja tu comentario:</label>
-            <textarea name="comentario" id="comentario"></textarea>            
-        </div>
-        <button type="submit">Enviar</button>
-        <img src="./imagenes/carroRojo.jpeg" alt="Imagen de un carro rojo" />
-        <a href="https://www.google.com">Google</a>
-        <a href="./about.html">Ir About</a>
-    </form>
+    <main>
+        <form action="">
+            <div>
+                <label for="nombreUsuario">
+                    Nombre:
+                </label>
+                <input type="text" name="nombreUsuario" id="nombreUsuario"/>
+            </div>
+            <div>
+                <label for="apellidoUsuario">
+                    Apellido:
+                </label>
+                <input type="text" name="apellidoUsuario" id="apellidoUsuario"/>
+            </div>
+            <div>
+                <label for="passwordUsuario">
+                    Contraseña:
+                </label>
+                <input type="password" name="passwordUsuario" id="passwordUsuario"/>
+            </div>
+            <div>
+                <label for="peliculaMatrix">
+                    Matrix:
+                </label>
+                <input type="radio" name="peliculas" id="peliculaMatrix"/>
+                <label for="peliculaSpiderman">
+                    Spiderman
+                </label>
+                <input type="radio" name="peliculas" id="peliculaSpiderman"/>
+                <label for="peliculaThor">
+                    Thor
+                </label>
+                <input type="radio" name="peliculas" id="peliculaThor"/>
+            </div>
+            <div>
+                <label for="tomate">
+                    Tomate:
+                </label>
+                <input type="checkbox" name="verduras" id="tomate"/>
+                <label for="lechuga">
+                    Lechuga:
+                </label>
+                <input type="checkbox" name="verduras" id="lechuga"/>
+                <label for="Ejote">
+                    Ejote:
+                </label>
+                <input type="checkbox" name="verduras" id="ejote"/>
+    
+            </div>
+            <div>
+                <label for="pais">
+                    País:
+                </label>
+                <select name="pais" id="pais">
+                    <option value="peru">
+                        Perú
+                    </option>
+                    <option value="mexico">
+                        México
+                    </option>
+                    <option value="ecuador">
+                        Ecuador
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="comentario">
+                    Deja tu comentario:
+                </label>
+                <textarea name="comentario" id="comentario"></textarea>            
+            </div>
+            <button type="submit" class="botonSubmit">
+                Enviar
+            </button>
+        </form>
+    </main>
+    <img src="./imagenes/carroRojo.jpeg" alt="Imagen de un carro rojo" />
+    <a href="https://www.google.com">
+        Google
+    </a>
+    <a href="./about.html">
+        Ir About
+    </a>
+    <footer>
+        Todos los derechos reservados
+    </footer>
 </body>
 </html>
 <!--

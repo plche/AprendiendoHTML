@@ -1,0 +1,68 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+p{
+    color: blue;
+}
+
+.navegacion{
+    color: red;
+    display: inline-block;
+}
+
+#pais{
+    width: 200px;
+    height: 50px;
+}
+
+div{
+    border-bottom: 1px solid blue;
+    border: 1px dashed #e6961f;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: #2dbcf5; */
+    padding: 10px; /* Aplica 10px a cada lado */
+    /* padding: 20px 50px;
+    padding: 20px 20px 50px 70px;
+    padding-top: 20px; */
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#principal{
+    color: green;
+    background-color: black;
+    padding: 15px;
+    font-style: italic;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Island Moments', cursive;
+}
+
+.botonSubmit{
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(3, 140, 3);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.botonSubmit:hover{
+    background-color: rgb(114, 216, 114);
+    cursor: pointer;
+}
+
+.numeros > li{
+    color: rgb(255, 123, 0);
+}
+
+/* .numeros li{
+    color: blue;
+} */
+
+.navegacion.especial, #principal{
+    color: purple;
+}
